@@ -52,6 +52,7 @@ rgba stands for:
   g = green (0-255)
   b = blue (0-255)
   a = alpha/level of opacity(1-opaque to 0-transparent)
+  
 ---
 C01-S03-L10 - Responsive Web Design Certification - Applied Visual Design - Adjust the Size of a Header Versus a Paragraph Tag
 ```
@@ -97,15 +98,18 @@ font-weight: 1000;
 ```
 font-weight controls the thickness of characters. Try 0-1000. 
 
+---
 C01-S03-L16 - Responsive Web Design Certification - Applied Visual Design - Set the font-size of Paragraph Text
 N/A
 
+---
 C01-S03-L17 - Responsive Web Design Certification - Applied Visual Design - Set the line-height of Paragraphs
 ```
 line-height: 25px;
 ```
 It seems to affect the height from bottom only. Meaning it’s adding padding to bottom.
 
+---
 C01-S03-L18 - Responsive Web Design Certification - Applied Visual Design - Adjust the Hover State of an Anchor Tag
 ```
   a:hover {
@@ -114,6 +118,7 @@ C01-S03-L18 - Responsive Web Design Certification - Applied Visual Design - Adju
 ```
 With the pseudo-class hover we can change things as they are hovered over.
 
+---
 C01-S03-L19 - Responsive Web Design Certification - Applied Visual Design - Change an Element's Relative Position
 ```
   h2 {
@@ -131,6 +136,7 @@ bottom:
 left:
 right:
 
+---
 C01-S03-L20 - Responsive Web Design Certification - Applied Visual Design - Move a Relatively Positioned Element with CSS Offsets
 ```
   h2 {
@@ -141,6 +147,7 @@ C01-S03-L20 - Responsive Web Design Certification - Applied Visual Design - Move
   }
 ```
 
+---
 C01-S03-L21 - Responsive Web Design Certification - Applied Visual Design - Lock an Element to its Parent with Absolute Positioning
 ```
   #searchbar {
@@ -150,6 +157,7 @@ C01-S03-L21 - Responsive Web Design Certification - Applied Visual Design - Lock
   }
 ```
 
+---
 C01-S03-L22 - Responsive Web Design Certification - Applied Visual Design - Lock an Element to the Browser Window with Fixed Positioning
 ```
   #navbar {
@@ -159,6 +167,7 @@ C01-S03-L22 - Responsive Web Design Certification - Applied Visual Design - Lock
   }
 ```
 
+---
 C01-S03-L23 - Responsive Web Design Certification - Applied Visual Design - Push Elements Left or Right with the float Property
 ```
     #left {
@@ -171,6 +180,7 @@ C01-S03-L23 - Responsive Web Design Certification - Applied Visual Design - Push
     }
 ```
 
+---
 C01-S03-L24 - Responsive Web Design Certification - Applied Visual Design - Change the Position of Overlapping Elements with the z-index Property
 ```
   .first {
@@ -181,11 +191,13 @@ C01-S03-L24 - Responsive Web Design Certification - Applied Visual Design - Chan
 ```
 higher the z-index the higher it goes on the viewing stack.
 
+---
 C01-S03-L25 - Responsive Web Design Certification - Applied Visual Design - Center an Element Horizontally Using the margin Property
 ```
 margin: auto;
 ```
 
+---
 C01-S03-L26 - Responsive Web Design Certification - Applied Visual Design - Learn about Complementary Colors
 ```
 N/A
@@ -194,6 +206,7 @@ red (#FF0000) and cyan (#00FFFF)
 green (#00FF00) and magenta (#FF00FF)
 blue (#0000FF) and yellow (#FFFF00)
 
+---
 C01-S03-L27 - Responsive Web Design Certification - Applied Visual Design - Learn about Tertiary Colors
 ```
 N/A
@@ -202,22 +215,26 @@ orange	#FF7F00
 cyan	#00FFFF
 raspberry	#FF007F
 
+---
 C01-S03-L28 - Responsive Web Design Certification - Applied Visual Design - Adjust the Color of Various Elements to Complementary Colors
 ```
 N/A
 ```
 teal (#09A7A1) as the dominant color, 
 orange (#FF790E) as the complement color.
+![alt text][C01-S03-L28-I01]
 
+---
 C01-S03-L29 - Responsive Web Design Certification - Applied Visual Design - Adjust the Hue of a Color
 ```
-N/A
+hsl(140,50%,50%);
 ```
 hue: 0-360
 saturation: amount of gray. 0 to 100%. 100% (no gray)
 lightness: amount of white or black. 0%(black), 50%(normal), 100%(white)
+![alt text][C01-S03-L29-I01]
 
-
+---
 C01-S03-L30 - Responsive Web Design Certification - Applied Visual Design - Adjust the Tone of a Color
 ```
   header {
@@ -231,15 +248,17 @@ C01-S03-L30 - Responsive Web Design Certification - Applied Visual Design - Adju
 ```
 We can adjust color schemes with the hsl() option by using the same hue, but changing saturation and lightness for tone adjustment.
 
+---
 C01-S03-L31 - Responsive Web Design Certification - Applied Visual Design - Create a Gradual CSS Linear Gradient
 ```
 background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 ```
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+![alt text][C01-S03-L31-I01]
 
-
+---
 C01-S03-L32 - Responsive Web Design Certification - Applied Visual Design - Use a CSS Linear Gradient to Create a Striped Element
-```
+```css
 background: repeating-linear-gradient(
       45deg,
       yellow 0px,
@@ -248,8 +267,9 @@ background: repeating-linear-gradient(
       black 80px
     );
 ```
+![alt text][C01-S03-L32-I01]
 
-
+---
 C01-S03-L33 - Responsive Web Design Certification - Applied Visual Design - Create Texture by Adding a Subtle Pattern as a Background Image
 ```
 <style>
@@ -258,8 +278,9 @@ C01-S03-L33 - Responsive Web Design Certification - Applied Visual Design - Crea
   }
 </style>
 ```
+![alt text][C01-S03-L33-I01]
 
-
+---
 C01-S03-L34 - Responsive Web Design Certification - Applied Visual Design - Use the CSS Transform scale Property to Change the Size of an Element
 ```
   #ball2 {
@@ -268,6 +289,7 @@ C01-S03-L34 - Responsive Web Design Certification - Applied Visual Design - Use 
   }
 ```
 
+---
 C01-S03-L35 - Responsive Web Design Certification - Applied Visual Design - Use the CSS Transform scale Property to Scale an Element on Hover
 ```
 p:hover {
@@ -275,6 +297,7 @@ p:hover {
 }
 ```
 
+---
 C01-S03-L36 - Responsive Web Design Certification - Applied Visual Design - Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
 ```
 p {
@@ -282,6 +305,7 @@ p {
 }
 ```
 
+---
 C01-S03-L37 - Responsive Web Design Certification - Applied Visual Design - Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
 ```
   #top {
@@ -289,8 +313,9 @@ C01-S03-L37 - Responsive Web Design Certification - Applied Visual Design - Use 
     transform: skewY(-10deg);
   }
 ```
+![alt text][C01-S03-L37-I01]
 
-
+---
 C01-S03-L38 - Responsive Web Design Certification - Applied Visual Design - Create a Graphic Using CSS
 ```
   .center {
@@ -307,8 +332,9 @@ C01-S03-L38 - Responsive Web Design Certification - Applied Visual Design - Crea
     box-shadow: 25px 10px 0 0 blue;
   }
 ```
+![alt text][C01-S03-L38-I01]
 
-
+---
 C01-S03-L39 - Responsive Web Design Certification - Applied Visual Design - Create a More Complex Shape Using CSS and HTML
 ```
 <style>
@@ -347,8 +373,9 @@ C01-S03-L39 - Responsive Web Design Certification - Applied Visual Design - Crea
 </style>
 <div class="heart"></div>
 ```
+![alt text][C01-S03-L39-I01]
 
-
+---
 C01-S03-L40 - Responsive Web Design Certification - Applied Visual Design - Learn How the CSS @keyframes and animation Properties Work
 ```
 #anim {
@@ -366,6 +393,7 @@ C01-S03-L40 - Responsive Web Design Certification - Applied Visual Design - Lear
 }
 ```
 
+---
 C01-S03-L41 - Responsive Web Design Certification - Applied Visual Design - Use CSS Animation to Change the Hover State of a Button
 ```
   button:hover {
@@ -380,6 +408,7 @@ C01-S03-L41 - Responsive Web Design Certification - Applied Visual Design - Use 
   }
 ```
 
+---
 C01-S03-L42 - Responsive Web Design Certification - Applied Visual Design - Modify Fill Mode of an Animation
 ```
   button:hover {
@@ -394,6 +423,7 @@ C01-S03-L42 - Responsive Web Design Certification - Applied Visual Design - Modi
   }
 ```
 
+---
 C01-S03-L43 - Responsive Web Design Certification - Applied Visual Design - Create Movement Using CSS Animation
 ```
   #rect {
@@ -421,6 +451,7 @@ C01-S03-L43 - Responsive Web Design Certification - Applied Visual Design - Crea
   }
 ```
 
+---
 C01-S03-L44 - Responsive Web Design Certification - Applied Visual Design - Create Visual Direction by Fading an Element from Left to Right
 ```
   @keyframes fade {
@@ -431,17 +462,20 @@ C01-S03-L44 - Responsive Web Design Certification - Applied Visual Design - Crea
   }
 ```
 
+---
 C01-S03-L45 - Responsive Web Design Certification - Applied Visual Design - Animate Elements Continually Using an Infinite Animation Count
 ```
 animation-iteration-count: 3;
 animation-iteration-count: infinite;
 ```
 
+---
 C01-S03-L46 - Responsive Web Design Certification - Applied Visual Design - Make a CSS Heartbeat using an Infinite Animation Count
 ```
 N/A
 ```
 
+---
 C01-S03-L47 - Responsive Web Design Certification - Applied Visual Design - Animate Elements at Variable Rates
 ```
   @keyframes twinkle-1 {
@@ -459,6 +493,7 @@ C01-S03-L47 - Responsive Web Design Certification - Applied Visual Design - Anim
   }
 ```
 
+---
 C01-S03-L48 - Responsive Web Design Certification - Applied Visual Design - Animate Multiple Elements at Variable Rates
 ```
   .star-1 {
@@ -483,6 +518,7 @@ C01-S03-L48 - Responsive Web Design Certification - Applied Visual Design - Anim
   }
 ```
 
+---
 C01-S03-L49 - Responsive Web Design Certification - Applied Visual Design - Change Animation Timing with Keywords
 ```
   #ball1 {
@@ -496,20 +532,33 @@ C01-S03-L49 - Responsive Web Design Certification - Applied Visual Design - Chan
 ```
 option: ease, ease-out, ease-in, linear.
 
+---
 C01-S03-L50 - Responsive Web Design Certification - Applied Visual Design - Learn How Bezier Curves Work
 ```
 animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 ```
+![alt text][C01-S03-L50-I01]
 
-
+---
 C01-S03-L51 - Responsive Web Design Certification - Applied Visual Design - Use a Bezier Curve to Move a Graphic
 ```
 animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
 animation-timing-function: ease-out;
 ```
 
+---
 C01-S03-L52 - Responsive Web Design Certification - Applied Visual Design - Make Motion More Natural Using a Bezier Curve
 ```
 animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649); //juggling motion
 ```
 
+---
+[C01-S03-L28-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L28-I01.png "C01-S03-L28-I01"
+[C01-S03-L29-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L29-I01.png "C01-S03-L29-I01"
+[C01-S03-L31-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L31-I01.png "C01-S03-L31-I01"
+[C01-S03-L32-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L32-I01.png "C01-S03-L32-I01"
+[C01-S03-L33-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L33-I01.png "C01-S03-L33-I01"
+[C01-S03-L37-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L37-I01.png "C01-S03-L37-I01"
+[C01-S03-L38-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L38-I01.png "C01-S03-L38-I01"
+[C01-S03-L39-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L39-I01.png "C01-S03-L39-I01"
+[C01-S03-L50-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L50-I01.png "C01-S03-L50-I01"
