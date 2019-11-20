@@ -100,6 +100,7 @@ font-weight controls the thickness of characters. Try 0-1000.
 
 ---
 C01-S03-L16 - Responsive Web Design Certification - Applied Visual Design - Set the font-size of Paragraph Text
+
 N/A
 
 ---
@@ -131,9 +132,13 @@ Block-level item starts on new line. ie headings, paragraphs, divs.
 Inline item sit within surrounding content. ie images, spans.
 
 position:
+
 top:
+
 bottom:
+
 left:
+
 right:
 
 ---
@@ -202,8 +207,11 @@ C01-S03-L26 - Responsive Web Design Certification - Applied Visual Design - Lear
 ```
 N/A
 ```
+
 red (#FF0000) and cyan (#00FFFF)
+
 green (#00FF00) and magenta (#FF00FF)
+
 blue (#0000FF) and yellow (#FFFF00)
 
 ---
@@ -212,7 +220,9 @@ C01-S03-L27 - Responsive Web Design Certification - Applied Visual Design - Lear
 N/A
 ```
 orange	#FF7F00
+
 cyan	#00FFFF
+
 raspberry	#FF007F
 
 ---
@@ -221,6 +231,7 @@ C01-S03-L28 - Responsive Web Design Certification - Applied Visual Design - Adju
 N/A
 ```
 teal (#09A7A1) as the dominant color, 
+
 orange (#FF790E) as the complement color.
 
 ![alt text][C01-S03-L28-I01]
@@ -231,7 +242,9 @@ C01-S03-L29 - Responsive Web Design Certification - Applied Visual Design - Adju
 hsl(140,50%,50%);
 ```
 hue: 0-360
+
 saturation: amount of gray. 0 to 100%. 100% (no gray)
+
 lightness: amount of white or black. 0%(black), 50%(normal), 100%(white)
 
 ![alt text][C01-S03-L29-I01]
