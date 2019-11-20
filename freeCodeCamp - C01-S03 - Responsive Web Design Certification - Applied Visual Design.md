@@ -222,6 +222,7 @@ N/A
 ```
 teal (#09A7A1) as the dominant color, 
 orange (#FF790E) as the complement color.
+
 ![alt text][C01-S03-L28-I01]
 
 ---
@@ -232,6 +233,7 @@ hsl(140,50%,50%);
 hue: 0-360
 saturation: amount of gray. 0 to 100%. 100% (no gray)
 lightness: amount of white or black. 0%(black), 50%(normal), 100%(white)
+
 ![alt text][C01-S03-L29-I01]
 
 ---
@@ -254,6 +256,7 @@ C01-S03-L31 - Responsive Web Design Certification - Applied Visual Design - Crea
 background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 ```
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+
 ![alt text][C01-S03-L31-I01]
 
 ---
@@ -267,6 +270,7 @@ background: repeating-linear-gradient(
       black 80px
     );
 ```
+
 ![alt text][C01-S03-L32-I01]
 
 ---
@@ -278,6 +282,7 @@ C01-S03-L33 - Responsive Web Design Certification - Applied Visual Design - Crea
   }
 </style>
 ```
+
 ![alt text][C01-S03-L33-I01]
 
 ---
@@ -313,6 +318,7 @@ C01-S03-L37 - Responsive Web Design Certification - Applied Visual Design - Use 
     transform: skewY(-10deg);
   }
 ```
+
 ![alt text][C01-S03-L37-I01]
 
 ---
@@ -332,6 +338,7 @@ C01-S03-L38 - Responsive Web Design Certification - Applied Visual Design - Crea
     box-shadow: 25px 10px 0 0 blue;
   }
 ```
+
 ![alt text][C01-S03-L38-I01]
 
 ---
@@ -373,6 +380,7 @@ C01-S03-L39 - Responsive Web Design Certification - Applied Visual Design - Crea
 </style>
 <div class="heart"></div>
 ```
+
 ![alt text][C01-S03-L39-I01]
 
 ---
@@ -537,6 +545,7 @@ C01-S03-L50 - Responsive Web Design Certification - Applied Visual Design - Lear
 ```
 animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 ```
+
 ![alt text][C01-S03-L50-I01]
 
 ---
