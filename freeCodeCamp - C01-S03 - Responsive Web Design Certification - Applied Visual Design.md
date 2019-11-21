@@ -48,9 +48,13 @@ background-color: rgba(45, 45, 45, 0.1);
 ```
 
 rgba stands for:
+
   r = red (0-255)
+  
   g = green (0-255)
+  
   b = blue (0-255)
+  
   a = alpha/level of opacity(1-opaque to 0-transparent)
   
 ---
