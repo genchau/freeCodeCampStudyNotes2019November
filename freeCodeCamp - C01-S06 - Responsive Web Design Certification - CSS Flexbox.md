@@ -199,6 +199,7 @@ C01-S06-L10 - Responsive Web Design Certification - CSS Flexbox - Use the align-
 BEFORE:
 
 ![alt text][C01-S06-L10-I01]
+
 AFTER:
 
 ![alt text][C01-S06-L10-I02]
