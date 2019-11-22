@@ -331,7 +331,9 @@ The default property settings are flex: 0 1 auto;.
 These values will cause #box-1 to grow to fill the extra space at twice the rate of #box-2 when the container is greater than 300px and shrink at twice the rate of #box-2 when the container is less than 300px. 300px is the combined size of the flex-basis values of the two boxes.
 
 ![alt text][C01-S06-L15-I01]
+
 ![alt text][C01-S06-L15-I02]
+
 ![alt text][C01-S06-L15-I03]
 
 ---
