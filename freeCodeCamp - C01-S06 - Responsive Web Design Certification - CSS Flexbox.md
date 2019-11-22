@@ -189,57 +189,193 @@ not specified align-items:
 C01-S06-L10 - Responsive Web Design Certification - CSS Flexbox - Use the align-items Property in the Tweet Embed
 
 ```
-
+  header .follow-btn {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+  }
 ```
+
+BEFORE:
+
+![alt text][C01-S06-L10-I01]
+AFTER:
+
+![alt text][C01-S06-L10-I02]
 
 ---
 C01-S06-L11 - Responsive Web Design Certification - CSS Flexbox - Use the flex-wrap Property to Wrap a Row or Column
 
 ```
-
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap; //default
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+  }
 ```
+
+    flex-wrap: nowrap; //default
+
+![alt text][C01-S06-L11-I01]
+
+    flex-wrap: wrap;
+
+![alt text][C01-S06-L11-I02]
+
+    flex-wrap: wrap-reverse;
+
+![alt text][C01-S06-L11-I03]
 
 ---
 C01-S06-L12 - Responsive Web Design Certification - CSS Flexbox - Use the flex-shrink Property to Shrink Items
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 1; // default
+  }
 
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 2;
+  }
 ```
+
+BEFORE:
+
+![alt text][C01-S06-L12-I01]
+
+AFTER with flex-shrink:
+
+![alt text][C01-S06-L12-I02]
 
 ---
 C01-S06-L13 - Responsive Web Design Certification - CSS Flexbox - Use the flex-grow Property to Expand Items
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex-grow: 1;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    height: 200px;
+    flex-grow: 2;
+  }
 ```
+
+flex-grow was not specified, width was also not specified, that’s why it was just a white background:
+
+![alt text][C01-S06-L13-I01]
+
+flex-grow, with orangered twice the size:
+
+![alt text][C01-S06-L13-I02]
 
 ---
 C01-S06-L14 - Responsive Web Design Certification - CSS Flexbox - Use the flex-basis Property to Set the Initial Size of an Item
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex-basis: 10em;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    height: 200px;
+    flex-basis: 20em;
+  }
 ```
+
+The flex-basis property specifies the initial size of the item before CSS makes adjustments with flex-shrink or flex-grow.
+
+The units used by the flex-basis property are the same as other size properties (px, em, %, etc.). The value auto sizes items based on the content.
+
+![alt text][C01-S06-L13-I02]
 
 ---
 C01-S06-L15 - Responsive Web Design Certification - CSS Flexbox - Use the flex Shorthand Property
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    flex: 2 2 150px;
+    height: 200px;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    flex: 1 1 150px;
+    height: 200px;
+  }
 ```
+
+There is a shortcut available to set several flex properties at once. The flex-grow, flex-shrink, and flex-basis properties can all be set together by using the flex property.
+
+For example, flex: 1 0 10px; will set the item to flex-grow: 1;, flex-shrink: 0;, and flex-basis: 10px;.
+
+The default property settings are flex: 0 1 auto;.
+
+These values will cause #box-1 to grow to fill the extra space at twice the rate of #box-2 when the container is greater than 300px and shrink at twice the rate of #box-2 when the container is less than 300px. 300px is the combined size of the flex-basis values of the two boxes.
+
+![alt text][C01-S06-L15-I01]
+![alt text][C01-S06-L15-I02]
+![alt text][C01-S06-L15-I03]
 
 ---
 C01-S06-L16 - Responsive Web Design Certification - CSS Flexbox - Use the order Property to Rearrange Items
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    order: 2;
+    height: 200px;
+    width: 200px;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    order: 1;
+    height: 200px;
+    width: 200px;
+  } 
 ```
+
+The property takes numbers as values, and negative numbers can be used.
 
 ---
 C01-S06-L17 - Responsive Web Design Certification - CSS Flexbox - Use the align-self Property
 
 ```
+  #box-1 {
+    background-color: dodgerblue;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    align-self: flex-end;
+    height: 200px;
+    width: 200px;
+  }
 ```
+
+align-self and similar to align-items, except we are only aligning the one item “self”.
+
+![alt text][C01-S06-L17-I01]
 
 ---
 
@@ -261,5 +397,17 @@ C01-S06-L17 - Responsive Web Design Certification - CSS Flexbox - Use the align-
 [C01-S06-L09-I04]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L09-I04.png "C01-S06-L09-I04"
 [C01-S06-L09-I05]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L09-I05.png "C01-S06-L09-I05"
 [C01-S06-L09-I06]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L09-I06.png "C01-S06-L09-I06"
-
+[C01-S06-L10-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L10-I01.png "C01-S06-L10-I01"
+[C01-S06-L10-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L10-I02.png "C01-S06-L10-I02"
+[C01-S06-L11-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L11-I01.png "C01-S06-L11-I01"
+[C01-S06-L11-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L11-I02.png "C01-S06-L11-I02"
+[C01-S06-L11-I03]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L11-I03.png "C01-S06-L11-I03"
+[C01-S06-L12-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L12-I01.png "C01-S06-L12-I01"
+[C01-S06-L12-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L12-I02.png "C01-S06-L12-I02"
+[C01-S06-L13-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L13-I01.png "C01-S06-L13-I01"
+[C01-S06-L13-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L13-I02.png "C01-S06-L13-I02"
+[C01-S06-L15-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L15-I01.png "C01-S06-L15-I01"
+[C01-S06-L15-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L15-I02.png "C01-S06-L15-I02"
+[C01-S06-L15-I03]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L15-I03.png "C01-S06-L15-I03"
+[C01-S06-L17-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L17-I01.png "C01-S06-L17-I01"
 
