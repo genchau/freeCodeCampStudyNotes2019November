@@ -382,6 +382,10 @@ align-self and similar to align-items, except we are only aligning the one item 
 
 ---
 
+[Table Of Contents](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/tableOfContents.md)
+
+---
+
 [C01-S06-L01-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L01-I01.png "C01-S06-L01-I01"
 [C01-S06-L01-I02]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L01-I02.png "C01-S06-L01-I02"
 [C01-S06-L02-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S06-L02-I01.png "C01-S06-L02-I01"
