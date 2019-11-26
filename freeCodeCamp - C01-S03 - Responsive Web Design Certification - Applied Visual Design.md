@@ -579,6 +579,10 @@ animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649); //juggling 
 ```
 
 ---
+
+[Table Of Contents](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/tableOfContents.md)
+
+---
 [C01-S03-L28-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L28-I01.png "C01-S03-L28-I01"
 [C01-S03-L29-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L29-I01.png "C01-S03-L29-I01"
 [C01-S03-L31-I01]: https://raw.githubusercontent.com/genchau/freeCodeCampStudyNotes2019November/master/images/C01-S03-L31-I01.png "C01-S03-L31-I01"
