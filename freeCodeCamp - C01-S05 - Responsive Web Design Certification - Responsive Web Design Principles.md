@@ -91,3 +91,6 @@ C01-S05-L04 - Responsive Web Design Certification - Responsive Web Design Princi
 
 ---
 
+[Table Of Contents](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/tableOfContents.md)
+
+---
