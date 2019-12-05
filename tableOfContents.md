@@ -1,15 +1,12 @@
-[freeCodeCamp - C01-S01 - Responsive Web Design Certification - Basic HTML and HTML5.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S01%20-%20Responsive%20Web%20Design%20Certification%20-%20Basic%20HTML%20and%20HTML5.md)
-
-[freeCodeCamp - C01-S02 - Responsive Web Design Certification - Basic CSS.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S02%20-%20Responsive%20Web%20Design%20Certification%20-%20Basic%20CSS.md)
-
-[freeCodeCamp - C01-S03 - Responsive Web Design Certification - Applied Visual Design.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S03%20-%20Responsive%20Web%20Design%20Certification%20-%20Applied%20Visual%20Design.md)
-
-[freeCodeCamp - C01-S04 - Responsive Web Design Certification - Applied Accessibility.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S04%20-%20Responsive%20Web%20Design%20Certification%20-%20Applied%20Accessibility.md)
-
-[freeCodeCamp - C01-S05 - Responsive Web Design Certification - Responsive Web Design Principles.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S05%20-%20Responsive%20Web%20Design%20Certification%20-%20Responsive%20Web%20Design%20Principles.md)
-
-[freeCodeCamp - C01-S06 - Responsive Web Design Certification - CSS Flexbox.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S06%20-%20Responsive%20Web%20Design%20Certification%20-%20CSS%20Flexbox.md)
-
-[freeCodeCamp - C01-S07 - Responsive Web Design Certification - CSS Grid.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S07%20-%20Responsive%20Web%20Design%20Certification%20-%20CSS%20Grid.md)
-
-[freeCodeCamp - C01-S08 - Responsive Web Design Certification - Responsive Web Design Projects.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp%20-%20C01-S08%20-%20Responsive%20Web%20Design%20Certification%20-%20Responsive%20Web%20Design%20Projects.md)
+[freeCodeCamp_C01-S01_ResponsiveWebDesignCertification_BasicHTMLandHTML5.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S01_ResponsiveWebDesignCertification_BasicHTMLandHTML5.md)<hr />
+[freeCodeCamp_C01-S02_ResponsiveWebDesignCertification_BasicCSS.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S02_ResponsiveWebDesignCertification_BasicCSS.md)<hr />
+[freeCodeCamp_C01-S03_ResponsiveWebDesignCertification_AppliedVisualDesign.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S03_ResponsiveWebDesignCertification_AppliedVisualDesign.md)<hr />
+[freeCodeCamp_C01-S04_ResponsiveWebDesignCertification_AppliedAccessibility.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S04_ResponsiveWebDesignCertification_AppliedAccessibility.md)<hr />
+[freeCodeCamp_C01-S05_ResponsiveWebDesignCertification_ResponsiveWebDesignPrinciples.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S05_ResponsiveWebDesignCertification_ResponsiveWebDesignPrinciples.md)<hr />
+[freeCodeCamp_C01-S06_ResponsiveWebDesignCertification_CSSFlexbox.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S06_ResponsiveWebDesignCertification_CSSFlexbox.md)<hr />
+[freeCodeCamp_C01-S07_ResponsiveWebDesignCertification_CSSGrid.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S07_ResponsiveWebDesignCertification_CSSGrid.md)<hr />
+[freeCodeCamp_C01-S08-L01_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaTributePage.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S08-L01_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaTributePage.md)<hr />
+[freeCodeCamp_C01-S08-L02_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaSurveyForm.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S08-L02_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaSurveyForm.md)<hr />
+[freeCodeCamp_C01-S08-L03_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaProductLandingPage.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S08-L03_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaProductLandingPage.md)<hr />
+[freeCodeCamp_C01-S08-L04_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaTechnicalDocumentationPage.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S08-L04_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaTechnicalDocumentationPage.md)<hr />
+[freeCodeCamp_C01-S08-L05_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaPersonalPortfolioWebpage.md](https://github.com/genchau/freeCodeCampStudyNotes2019November/blob/master/freeCodeCamp_C01-S08-L05_ResponsiveWebDesignCertification_ResponsiveWebDesignProjects_BuildaPersonalPortfolioWebpage.md)<hr />
